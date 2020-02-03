@@ -1,0 +1,265 @@
+/*Find the Penguins game stylesheet*/
+
+
+body {
+	background-image: url("media/bg.png");
+	background-size: center;
+	background-repeat: none;
+}
+
+div#gameholder {
+	width: 620px;
+	height: 770px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#title {
+	background-image: url("media/title.png");
+	width: 300px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input#button {
+	display: block;
+	clear: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 50px;
+	border-radius: 30px;
+	font-size: 1.8rem;
+}
+
+
+
+/*----------------- Mound 1 ---------------------*/
+/*This is the natural styling for the div*/
+div.mound1 {
+	background-image: url("media/block_1.png");
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+/*This Psuedo class is applied on a mouse hover */
+div.mound1:hover {
+	background-image: url("media/block_1_hover.png");
+	cursor: pointer;
+	background-size: cover;
+}
+/*This Psuedo class is applied when you click a mound*/
+div.mound1:active {
+	background-image: url("media/character_1.png");
+	background-size: cover;
+	
+}
+/*----------------- End of Mound 1 ---------------------*/
+/*----------------- Mound 2 ---------------------*/
+/*This is the natural styling for the div*/
+div.mound2 {
+	background-image: url("media/block_1.png");
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-size: cover;
+}
+/*This Psuedo class is applied on a mouse hover */
+div.mound2:hover {
+	background-image: url("media/block_1_hover.png");
+	cursor: pointer;
+	background-size: cover;
+}
+/*This Psuedo class is applied when you click a mound*/
+div.mound2:active {
+	background-image: url("media/character_2.png");
+	background-size: cover;
+}
+/*----------------- End of Mound 2 ---------------------*/
+/*----------------- Mound 3 ---------------------*/
+/*This is the natural styling for the div*/
+div.mound3 {
+	background-image: url("media/block_1.png");
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-size: cover;
+}
+/*This Psuedo class is applied on a mouse hover */
+div.mound3:hover {
+	background-image: url("media/block_1_hover.png");
+	cursor: pointer;
+	background-size: cover;
+
+}
+/*This Psuedo class is applied when you click a mound*/
+div.mound3:active {
+	background-image: url("media/character_3.png");
+	background-size: cover;
+}
+/*----------------- End of Mound 3 ---------------------*/
+/*----------------- Mound 4 ---------------------*/
+/*This is the natural styling for the div*/
+div.mound4 {
+	background-image: url("media/block_1.png");
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-size: cover;
+}
+/*This Psuedo class is applied on a mouse hover */
+div.mound4:hover {
+	background-image: url("media/block_1_hover.png");
+	cursor: pointer;
+	background-size: cover;
+}
+/*This Psuedo class is applied when you click a mound*/
+div.mound4:active {
+	background-image: url("media/character_4.png");
+	background-size: cover;
+}
+/*----------------- End of Mound 4 ---------------------*/
+/*----------------- Mound 5 ---------------------*/
+/*This is the natural styling for the div*/
+div.mound5 {
+	background-image: url("media/block_1.png");
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-size: cover;
+}
+/*This Psuedo class is applied on a mouse hover */
+div.mound5:hover {
+	background-image: url("media/block_1_hover.png");
+	cursor: pointer;
+	background-size: cover;
+}
+/*This Psuedo class is applied when you click a mound*/
+div.mound5:active {
+	background-image: url("media/character_5.png");
+	background-size: cover;
+	background-position: center;
+}
+/*----------------- End of Mound 5 ---------------------*/
+/*----------------- Mound 6 ---------------------*/
+/*This is the natural styling for the div*/
+div.mound6 {
+	background-image: url("media/block_1.png");
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-size: cover;
+}
+/*This Psuedo class is applied on a mouse hover */
+div.mound6:hover {
+	background-image: url("media/block_1_hover.png");
+	cursor: pointer;
+	background-size: cover;
+}
+/*This Psuedo class is applied when you click a mound*/
+div.mound6:active {
+	background-image: url("media/character_6.png");
+	background-size: cover;
+}
+/*----------------- End of Mound 6 ---------------------*/
+/*----------------- Mound 7 ---------------------*/
+/*This is the natural styling for the div*/
+div.mound7 {
+	background-image: url("media/block_1.png");
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-size: cover;
+}
+/*This Psuedo class is applied on a mouse hover */
+div.mound7:hover {
+	background-image: url("media/block_1_hover.png");
+	cursor: pointer;
+	background-size: cover;
+}
+/*This Psuedo class is applied when you click a mound*/
+div.mound7:active {
+	background-image: url("media/character_7.png");
+	background-size: cover;
+}
+/*----------------- End of Mound 7 ---------------------*/
+/*----------------- Mound 8 ---------------------*/
+/*This is the natural styling for the div*/
+div.mound8 {
+	background-image: url("media/block_1.png");
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-size: cover;
+}
+/*This Psuedo class is applied on a mouse hover */
+div.mound8:hover {
+	background-image: url("media/block_1_hover.png");
+	cursor: pointer;
+	background-size: cover;
+}
+/*This Psuedo class is applied when you click a mound*/
+div.mound8:active {
+	background-image: url("media/character_8.png");
+	background-size: cover;
+}
+/*----------------- End of Mound 8 ---------------------*/
+/*----------------- Mound 9 ---------------------*/
+/*This is the natural styling for the div*/
+div.mound9 {
+	background-image: url("media/block_1.png");
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-size: cover;
+}
+/*This Psuedo class is applied on a mouse hover */
+div.mound9:hover {
+	background-image: url("media/block_1_hover.png");
+	cursor: pointer;
+	background-size: cover;
+}
+/*This Psuedo class is applied when you click a mound*/
+div.mound9:active {
+	background-image: url("media/character_9.png");
+	background-size: cover;
+}
+/*----------------- End of Mound 9 ---------------------*/
+
+/*----------------- YETI! ---------------------*/
+
+#yeti:active {
+	background-image: url("media/bowser.png");
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
